@@ -29,6 +29,7 @@ nav{
 nav ul{
     display: flex;
     order: 2;
+    transition: 0.4ms;
 
 }
 
@@ -36,6 +37,13 @@ nav ul a{
     color: black;
     font-size: 1.2rem;
     margin-left: 2rem;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: rgb(183, 233, 226);
+    font-size: 2em;
 }
 
 img {
@@ -45,11 +53,30 @@ img {
 .container{
     height: 600px;
     padding: 20px;
-    margin-top: -50px;
+    margin-top: -80px;
     margin-left: 120px;
-    margin-right: 40px;
+    margin-right: 500px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
 }
+
+div h1 {
+    margin-left: 500px;
+}
+
+section p{
+    margin-top: 20px;
+}
+
+section{
+    margin-top: -30px;
+
+}
+
+header{
+    background-color: rgb(176, 196, 196);
+    padding: 20px;
+}
+
