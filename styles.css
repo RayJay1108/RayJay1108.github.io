@@ -1,0 +1,55 @@
+h1, h2, h3 {
+    font-family: andale mono, monospace;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo{
+    order: 1;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+nav{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav ul{
+    display: flex;
+    order: 2;
+
+}
+
+nav ul a{
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+
+img {
+    height: 500px;
+}
+
+.container{
+    height: 600px;
+    padding: 20px;
+    margin-top: -50px;
+    margin-left: 120px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
