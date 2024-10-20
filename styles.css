@@ -1,4 +1,4 @@
-h1, h2, h3 {
+h1, h2, h3, h4{
     font-family: andale mono, monospace;
     font-size: 30px;
     font-weight: 100;
@@ -68,15 +68,21 @@ div h1 {
 
 section p{
     margin-top: 20px;
+    
 }
 
 section{
     margin-top: -30px;
-
+    
 }
 
 header{
     background-color: rgb(176, 196, 196);
     padding: 20px;
 }
+
+h4 {
+    padding-top: 30px;
+}
+
 
