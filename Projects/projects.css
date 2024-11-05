@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: andale mono, monospace;
+    font-weight: 100;
+}
+
+header {
+    background-color: rgb(186, 233, 226);
+    padding-bottom: 20px;
+    
+}
+
+h1, p {
+    margin-top: -10px;
+}
+
+.logo {
+    order: 1;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+a {
+    color: black;
+    display: flex;
+
+}
+
+div {
+    align-items: center;
+
+}
+
+table {
+    align-items: center;
+    border-collapse: collapse;
+    width: 100%;
+    border-style: dashed;
+}
+
