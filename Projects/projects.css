@@ -29,15 +29,12 @@ a {
 
 }
 
+table tr td {
+    align-items: center;
+    border-style: double;
+    padding: 10px;
+}
+
 div {
-    align-items: center;
-
+    padding-left: 250px;
 }
-
-table {
-    align-items: center;
-    border-collapse: collapse;
-    width: 100%;
-    border-style: dashed;
-}
-
