@@ -1,6 +1,3 @@
-body{
-    text-align: center;
-}
 
 h1, h2, h3, h4 {
     font-family: andale mono, monospace;
@@ -15,26 +12,96 @@ header {
 
 h1, p {
     margin-top: -10px;
+    
+}
+
+h1 {
+    font-size: 3em;
 }
 
 .logo {
     order: 1;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
+    padding-top: 30px;
+    display: flex;
+    
 }
 
 a {
     color: black;
     display: flex;
-
+    justify-content: center;
+    text-decoration: 0
+    ;
 }
 
+a:hover {
+    transform: scale(150%);
+    color: aliceblue;
+    transition: 0.2s;
+}
+
+/* Table under MY SKILLS*/
 table tr td {
-    align-items: center;
-    border-style: double;
+    margin: 0 auto;
+    border-style:outset ;
     padding: 10px;
 }
 
-div {
-    padding-left: 250px;
+/* Images layout*/
+img {
+    width: 400px;
+    height: 300px;
+    object-fit:cover;
+    object-position: 50%;
+    padding: 5px;
 }
+
+video {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+video:hover {
+    cursor: pointer;
+    transform: scale(130%);
+    height: 500px;
+    width: 400px;
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+/*--Images layout functiom */
+div {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Images Hover functions*/ 
+img:hover {
+    cursor: pointer;
+    transform: scale(130%);
+    height: 500px;
+    width: 400px;
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+/* Entire Page (texts)*/ 
+body {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+} 
+
+
+
+
+
+
