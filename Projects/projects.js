@@ -1,4 +1,4 @@
-const video = document.querySelector("video")
+const video = document.querySelector(".video-container video")
 
 video.addEventListener("mouseenter", () => {
     video.play();
@@ -6,4 +6,6 @@ video.addEventListener("mouseenter", () => {
 
 video.addEventListener("mouseleave", () => {
     video.pause();
+    video.load();
 })
+
