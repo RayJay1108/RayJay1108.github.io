@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+#heading {
+    background-color:rgb(176, 196, 196) ;
+    padding: 15px
+}
+
+h2 {
+    font-size: 40px;
+}
