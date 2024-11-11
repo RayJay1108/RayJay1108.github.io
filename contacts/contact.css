@@ -5,6 +5,19 @@ body {
 ul {
     text-align: center;
     list-style-type: none;
+    
+}
+
+#heading a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#heading a:hover {
+    font-size: 40px;
+    color: aliceblue;
+    transition: 0.2s;
 }
 
 #heading {
@@ -14,4 +27,14 @@ ul {
 
 h2 {
     font-size: 40px;
+}
+
+a {
+    text-decoration: 0;
+    color: black;
+}
+
+a:hover {
+    font-size: 30px;
+    transition: 0.1s;
 }
