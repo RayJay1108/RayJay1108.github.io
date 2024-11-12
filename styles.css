@@ -12,7 +12,6 @@ h1, h2, h3, h4{
 }
 
 .logo{
-    order: 1;
     font-size: 2rem;
     font-weight: 800;
 }
@@ -28,7 +27,6 @@ nav{
 
 nav ul{
     display: flex;
-    order: 2;
     transition: 0.4ms;
 
 }
@@ -44,6 +42,13 @@ nav ul a{
 nav a:hover {
     color: rgb(183, 233, 226);
     font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        text-align: center;
+        flex-direction: column;
+    }
 }
 
 img {
