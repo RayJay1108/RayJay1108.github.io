@@ -27,6 +27,7 @@ nav{
     height: 64px;
     margin-left: 50px;
     margin-right: 50px;
+    flex-direction: row-reverse;
 }
 
 nav ul{
@@ -128,7 +129,9 @@ button:hover {
     transition: 0.3s;
     background-color: rgb(172, 104, 104);
     color: aliceblue;
-}  
+}
+
+/* Dynamic greeting*/
 
 .greet {
     font-size: 25px;
@@ -146,5 +149,4 @@ button:hover {
         width: 20ch;
     }
 }
-
 
