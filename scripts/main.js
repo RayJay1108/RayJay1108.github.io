@@ -1,3 +1,4 @@
+// greetings!! //
 const time = new Date().getHours();
 let greeting;
     if (time < 12 ) {
@@ -13,10 +14,27 @@ let greeting;
 
 document.getElementById('greet').innerHTML = greeting; 
 
-
+// footer year // 
 document.addEventListener('DOMContentLoaded', function() {
         var currentYear = new Date().getFullYear();
         document.getElementById('year').textContent = currentYear;
        }); 
 
+// sanity check //        
 alert ('Hello World!')
+
+// button hover function // 
+
+function hover() {
+    document.getElementById('btn-alert').innerHTML = "Watsuuupp"
+}
+
+function Watsuuupp() {
+    document.getElementById('btn-alert').innerHTML = "Heyo"
+}
+
+function myFunction() {
+    alert("Hello World!");
+  } 
+
+
