@@ -4,6 +4,10 @@ h1, h2, h3, h4{
     font-weight: 100;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -53,6 +57,7 @@ nav a:hover {
 
 img {
     height: 500px;
+    
 }
 
 .container{
@@ -62,6 +67,7 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
 
 div h1 {
     margin-left: 500px;
@@ -102,5 +108,8 @@ h4 {
 footer {
     padding-top: 300px;
     padding: 200px;
+    width: 500px;
+    text-align: center;
     margin: 0 auto;
 }
+

@@ -1,17 +1,22 @@
 const time = new Date().getHours();
 let greeting;
     if (time <= 6) {
-        greeting = "Good Morning";
-    }
+    greeting = "Good morning";
+    } 
     else if (time <= 12) {
-        greeting = "Good Afternoon";
-    }
+    greeting = "Good Afternoon";
+    } 
     else if (time <= 18) {
-        greeting = "Good Evening";
+    greeting = "Good evening";
     }
-    document.getElementById ("Greeting").innerHTML = greeting; 
+    else {
+        greeting = "Hello";
+    }
 
-    document.addEventListener('DOMContentLoaded', function() {
+document.getElementById('greet').innerHTML = greeting; 
+
+
+document.addEventListener('DOMContentLoaded', function() {
         var currentYear = new Date().getFullYear();
         document.getElementById('year').textContent = currentYear;
        }); 
