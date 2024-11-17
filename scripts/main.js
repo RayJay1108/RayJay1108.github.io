@@ -2,17 +2,17 @@
 const time = new Date().getHours();
 let greeting;
     if (time < 12 ) {
-    greeting = "Good morning";
-    document.getElementById('greet').style.color = 'blue';
+    greeting = "Good Morning 🌞";
+    document.getElementById('greet').style.color =  'blue';
     
     } 
     else if (time < 18) {
-    greeting = "Good Afternoon";
+    greeting = "Good Afternoon 🌅";
     document.getElementById('greet').style.color = 'orange';
    
     } 
     else if (time < 24) {
-    greeting = "Good evening";
+    greeting = "Good evening 🌙";
     document.getElementById('greet').style.color = 'Purple'; 
     
     }

@@ -132,5 +132,19 @@ button:hover {
 
 .greet {
     font-size: 25px;
+    animation: typing-text 2s steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+
 }
+
+@keyframes typing-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 20ch;
+    }
+}
+
 
