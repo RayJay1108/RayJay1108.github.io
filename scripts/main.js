@@ -44,4 +44,7 @@ function myFunction() {
     alert("Hello World!");
   } 
 
+  // Console log current date and time // 
+  console.log(new Date().toString());   
+
 
