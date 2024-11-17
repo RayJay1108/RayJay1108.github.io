@@ -129,3 +129,8 @@ button:hover {
     background-color: rgb(172, 104, 104);
     color: aliceblue;
 }  
+
+.greet {
+    font-size: 25px;
+}
+
