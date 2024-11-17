@@ -12,7 +12,7 @@ let greeting;
    
     } 
     else if (time < 24) {
-    greeting = "Good evening 🌙";
+    greeting = "Good Evening 🌙";
     document.getElementById('greet').style.color = 'Purple'; 
     
     }
