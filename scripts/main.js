@@ -1,17 +1,15 @@
 const time = new Date().getHours();
 let greeting;
-    if (time <= 6) {
+    if (time < 12 ) {
     greeting = "Good morning";
     } 
-    else if (time <= 12) {
+    else if (time < 18) {
     greeting = "Good Afternoon";
     } 
-    else if (time <= 18) {
+    else if (time < 24) {
     greeting = "Good evening";
     }
-    else {
-        greeting = "Hello";
-    }
+   
 
 document.getElementById('greet').innerHTML = greeting; 
 
