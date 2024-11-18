@@ -111,7 +111,13 @@ body {
     }
 } 
 
-
+.list {
+    text-align: center;
+    list-style: circle;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
 
 
 
